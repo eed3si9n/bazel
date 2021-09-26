@@ -21,7 +21,7 @@ import net.starlark.java.eval.StarlarkValue;
 
 /** Test case for a class with multiple StarlarkMethod methods which have selfCall=true. */
 public class MultipleSelfCallMethods implements StarlarkValue {
-
+/*
   @StarlarkMethod(
       name = "selfCallMethod",
       selfCall = true,
@@ -38,4 +38,5 @@ public class MultipleSelfCallMethods implements StarlarkValue {
   public StarlarkInt selfCallMethodTwo() {
     return 0;
   }
+*/
 }
